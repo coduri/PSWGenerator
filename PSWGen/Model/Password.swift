@@ -11,7 +11,7 @@ struct Password {
     private let minuscoleList = Array("abcdefghijklmnopqrstuvwxyz")
     private let maiuscoleList = Array("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
     private let numeriList = Array("1234567890")
-    private let specialiList = Array("~`!@#$%^&*()-_+={}[]|\\/:;\"'<>,.?")
+    private let specialiList = Array("~!@#$%^&*()-_+={}[]:;<>,.?")
     
     func generaPassword(numeroChar: Int, minuscole: Bool, maiuscole: Bool, numeri: Bool, speciali: Bool) -> String {
         var array: [Character] = []

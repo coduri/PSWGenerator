@@ -28,7 +28,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="f3O-NJ-UsL" userLabel="Stack View - Lowercase">
                                                 <rect key="frame" x="0.0" y="0.0" width="344" height="31"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Caratteri minuscoli:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXn-Fw-wTu">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Caratteri minuscoli" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXn-Fw-wTu">
                                                         <rect key="frame" x="0.0" y="0.0" width="281" height="31"/>
                                                         <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="17"/>
                                                         <nil key="textColor"/>
@@ -46,7 +46,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="3cU-pf-Mty" userLabel="Stack View - Uppercase">
                                                 <rect key="frame" x="0.0" y="53" width="344" height="31"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Caratteri maiuscoli:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NXd-Ih-DhJ">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Caratteri maiuscoli" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NXd-Ih-DhJ">
                                                         <rect key="frame" x="0.0" y="0.0" width="280" height="31"/>
                                                         <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="17"/>
                                                         <nil key="textColor"/>
@@ -64,7 +64,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="X1n-pP-iRZ" userLabel="Stack View - Number">
                                                 <rect key="frame" x="0.0" y="106" width="344" height="31"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Caratteri numerici:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6H0-40-6rH">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Caratteri numerici" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6H0-40-6rH">
                                                         <rect key="frame" x="0.0" y="0.0" width="274" height="31"/>
                                                         <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="17"/>
                                                         <nil key="textColor"/>
@@ -212,16 +212,16 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="gyX-85-QUh">
-                                <rect key="frame" x="0.0" y="384" width="414" height="74"/>
+                                <rect key="frame" x="10" y="384" width="394" height="74"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Password:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T3l-Fv-Evf">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="42"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="42"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="psw" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IfT-6t-ao6">
-                                        <rect key="frame" x="0.0" y="50" width="414" height="24"/>
+                                        <rect key="frame" x="0.0" y="50" width="394" height="24"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <color key="textColor" red="0.170550853" green="0.2098482549" blue="0.30589407680000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
@@ -274,11 +274,11 @@
                         <constraints>
                             <constraint firstItem="NFx-tf-hJx" firstAttribute="leading" secondItem="kDl-s0-eyV" secondAttribute="leading" constant="20" id="2ck-hl-FqK"/>
                             <constraint firstItem="E9E-TV-Qhb" firstAttribute="top" secondItem="l2R-jf-5b1" secondAttribute="top" id="3EH-wI-0CX"/>
-                            <constraint firstItem="gyX-85-QUh" firstAttribute="leading" secondItem="kDl-s0-eyV" secondAttribute="leading" id="46A-jt-bYe"/>
+                            <constraint firstItem="gyX-85-QUh" firstAttribute="leading" secondItem="kDl-s0-eyV" secondAttribute="leading" constant="10" id="46A-jt-bYe"/>
                             <constraint firstItem="gyX-85-QUh" firstAttribute="centerY" secondItem="l2R-jf-5b1" secondAttribute="centerY" id="5ur-9H-Kxx"/>
                             <constraint firstItem="gyX-85-QUh" firstAttribute="centerX" secondItem="l2R-jf-5b1" secondAttribute="centerX" id="6Tu-zW-qZ7"/>
                             <constraint firstItem="NFx-tf-hJx" firstAttribute="bottom" secondItem="kDl-s0-eyV" secondAttribute="bottom" id="7zB-RB-Dq8"/>
-                            <constraint firstItem="kDl-s0-eyV" firstAttribute="trailing" secondItem="gyX-85-QUh" secondAttribute="trailing" id="82P-jt-QO0"/>
+                            <constraint firstItem="kDl-s0-eyV" firstAttribute="trailing" secondItem="gyX-85-QUh" secondAttribute="trailing" constant="10" id="82P-jt-QO0"/>
                             <constraint firstAttribute="bottom" secondItem="E9E-TV-Qhb" secondAttribute="bottom" id="EVe-4Y-yYr"/>
                             <constraint firstItem="E9E-TV-Qhb" firstAttribute="leading" secondItem="l2R-jf-5b1" secondAttribute="leading" id="FXS-ZZ-iQf"/>
                             <constraint firstItem="bSc-pX-viq" firstAttribute="leading" secondItem="kDl-s0-eyV" secondAttribute="leading" constant="20" id="Ht3-Dv-HqN"/>

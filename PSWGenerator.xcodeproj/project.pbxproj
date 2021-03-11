@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4436117725FA6BAA000CE355 /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4436117625FA6BAA000CE355 /* Password.swift */; };
 		44445EAD25EACB3900DEAD9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44445EAC25EACB3900DEAD9F /* AppDelegate.swift */; };
 		44445EAF25EACB3900DEAD9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44445EAE25EACB3900DEAD9F /* SceneDelegate.swift */; };
 		44445EB125EACB3900DEAD9F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44445EB025EACB3900DEAD9F /* MainViewController.swift */; };
@@ -17,7 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		44445EA925EACB3900DEAD9F /* PSWGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSWGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4436117625FA6BAA000CE355 /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
+		44445EA925EACB3900DEAD9F /* PSWGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSWGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44445EAC25EACB3900DEAD9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44445EAE25EACB3900DEAD9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		44445EB025EACB3900DEAD9F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +52,7 @@
 		44445EAA25EACB3900DEAD9F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				44445EA925EACB3900DEAD9F /* PSWGen.app */,
+				44445EA925EACB3900DEAD9F /* PSWGenerator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +92,7 @@
 		4499A9C225F580710029C1A4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4436117625FA6BAA000CE355 /* Password.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -97,9 +100,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		44445EA825EACB3900DEAD9F /* PSWGen */ = {
+		44445EA825EACB3900DEAD9F /* PSWGenerator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44445EBD25EACB3B00DEAD9F /* Build configuration list for PBXNativeTarget "PSWGen" */;
+			buildConfigurationList = 44445EBD25EACB3B00DEAD9F /* Build configuration list for PBXNativeTarget "PSWGenerator" */;
 			buildPhases = (
 				44445EA525EACB3900DEAD9F /* Sources */,
 				44445EA625EACB3900DEAD9F /* Frameworks */,
@@ -109,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = PSWGen;
+			name = PSWGenerator;
 			productName = PSWGen;
-			productReference = 44445EA925EACB3900DEAD9F /* PSWGen.app */;
+			productReference = 44445EA925EACB3900DEAD9F /* PSWGenerator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +131,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 44445EA425EACB3900DEAD9F /* Build configuration list for PBXProject "PSWGen" */;
+			buildConfigurationList = 44445EA425EACB3900DEAD9F /* Build configuration list for PBXProject "PSWGenerator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -141,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				44445EA825EACB3900DEAD9F /* PSWGen */,
+				44445EA825EACB3900DEAD9F /* PSWGenerator */,
 			);
 		};
 /* End PBXProject section */
@@ -167,6 +170,7 @@
 				44445EB125EACB3900DEAD9F /* MainViewController.swift in Sources */,
 				44445EAD25EACB3900DEAD9F /* AppDelegate.swift in Sources */,
 				449AF93625F81D0300E9CB08 /* GeneratedViewController.swift in Sources */,
+				4436117725FA6BAA000CE355 /* Password.swift in Sources */,
 				44445EAF25EACB3900DEAD9F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,7 +354,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		44445EA425EACB3900DEAD9F /* Build configuration list for PBXProject "PSWGen" */ = {
+		44445EA425EACB3900DEAD9F /* Build configuration list for PBXProject "PSWGenerator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44445EBB25EACB3B00DEAD9F /* Debug */,
@@ -359,7 +363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44445EBD25EACB3B00DEAD9F /* Build configuration list for PBXNativeTarget "PSWGen" */ = {
+		44445EBD25EACB3B00DEAD9F /* Build configuration list for PBXNativeTarget "PSWGenerator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44445EBE25EACB3B00DEAD9F /* Debug */,

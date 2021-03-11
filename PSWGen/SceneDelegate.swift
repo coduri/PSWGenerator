@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  PSWGen
+//  PSWGenerator
 //
 //  Created by Christian Coduri on 27/02/21.
 //

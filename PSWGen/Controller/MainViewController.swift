@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  PSWGen
+//  PSWGenerator
 //
 //  Created by Christian Coduri on 27/02/21.
 //
@@ -8,13 +8,6 @@
 import UIKit
 
 class MainViewController: UIViewController {
-
-    let minuscole = Array("abcdefghijklmnopqrstuvwxyz")
-    let maiuscole = Array("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
-    let numeri = Array("1234567890")
-    let speciali = Array("~`!@#$%^&*()-_+={}[]|\\/:;\"'<>,.?")
-    
-    var psw = ""
     
     @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var sliderLabel: UILabel!
@@ -28,21 +21,23 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Valori predefiniti
         sliderLabel.text = "16"
         slider.value = 16
     }
 
-    // Cambio il valore della label 
+    // Cambio il valore numerico della Label
     @IBAction func changeSliderLabel(_ sender: UISlider) {
         sliderLabel.text = String(format: "%02d", Int(sender.value))
     }
     
+    // Metodo chiamato dopo aver effettuato l'azione di on/off di qualsiasi UISwitch
     @IBAction func checkSwitches(_ sender: UISwitch) {
-        // Metodo chiamato dopo aver effettuato l'azione di on/off
         if sender.isOn == false{
-            //Controllo che almeno uno degli altri sia on
-            
+            // Sto spegnendo uno UISwitch => Controllo che almeno uno sia ON
             if !minuscoleSwitch.isOn && !maiuscoleSwitch.isOn && !numeriSwitch.isOn && !specialiSwitch.isOn {
+                // Tutti disattivi, rimetto l'ultimo su ON
                 sender.setOn(true, animated: true)
             }
         }
@@ -57,29 +52,10 @@ class MainViewController: UIViewController {
         if(segue.identifier == "goToResult"){
             let destinationVC = segue.destination as! GeneratedViewController
             
-            //genero password
-            var array: [Character] = []
-            var psw: String = ""
-            
-            let numeroChar = Int(slider.value)
-            
-            if(minuscoleSwitch.isOn){
-                array.append(contentsOf: minuscole)
-            }
-            if(maiuscoleSwitch.isOn){
-                array.append(contentsOf: maiuscole)
-            }
-            if(numeriSwitch.isOn){
-                array.append(contentsOf: numeri)
-            }
-            if(specialiSwitch.isOn){
-                array.append(contentsOf: speciali)
-            }
-            
-            for _ in 1...numeroChar {
-                psw += String(array.randomElement()!)
-            }
-            destinationVC.pswGenerated = psw
+            destinationVC.pswGenerated = Password().generaPassword(
+                    numeroChar: Int(slider.value), minuscole: minuscoleSwitch.isOn, maiuscole: maiuscoleSwitch.isOn,
+                    numeri: numeriSwitch.isOn, speciali: specialiSwitch.isOn
+            )
         }
     }
     

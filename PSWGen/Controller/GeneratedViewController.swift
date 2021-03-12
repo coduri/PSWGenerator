@@ -21,6 +21,7 @@ class GeneratedViewController: UIViewController {
     
     @IBAction func copiaPassword(_ sender: UIButton) {
         UIPasteboard.general.string = pswLabel.text         // Copio la password
+        sender.setTitle("Copiata", for: .normal)            // Cambio scritta
         sender.alpha = 0.5                                  // Abbasso opacità
         sender.isEnabled = false                            // Disabilito bottone
     }

@@ -1,6 +1,6 @@
 # PSWGenerator
 
-| Descrizione  | Second Header |
+| Descrizione  | Mockup |
 | ------------- | ------------- |
 | Semplice app sviluppata in Swift che genera password casuali sulla base di filtri personalizzabili. <br>Implementata seguendo il pattern MVC.  | <img src="screenshot/mock-up.gif">  |
 
